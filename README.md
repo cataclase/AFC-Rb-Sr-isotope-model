@@ -1,4 +1,6 @@
 # Borborema Magmatism Toolkit
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Python toolkit for geochemical and isotopic analysis of post-collisional magmatism in the **Rio Grande do Norte Domain (DRN), Borborema Province, NE Brazil**.
 
@@ -46,14 +48,14 @@ PDF
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/afc-sr-model.git
-cd afc-sr-model
+git clone https://github.com/cataclase/borborema-magmatism-toolkit.git
+cd borborema-magmatism-toolkit
 ```
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r sr_isotopes/requirements.txt
 ```
 
 ---
@@ -63,7 +65,7 @@ pip install -r requirements.txt
 Run the script with a dataset:
 
 ```bash
-python afc_sr_model.py example_data.csv
+python sr_isotopes/afc_sr_model.py example_data/example_data.csv
 ```
 
 or
@@ -123,16 +125,19 @@ The script produces a Sr–Sr isotope diagram showing:
 
 # Citation
 
-If you use this script in scientific work, please cite:
+If you use this toolkit in scientific work, please cite:
 
-Tavares, C. (2026)
-*borborema-magmatism-toolkit*
+Tavares, C. (2026).
+*Borborema Magmatism Toolkit: geochemical and isotopic analysis of post-collisional granitoids from the Rio Grande do Norte Domain (Borborema Province, NE Brazil).*  
 GitHub repository.
+
+DOI: (to be assigned via Zenodo)
 
 ---
 
 # License
 
 This project is distributed under the MIT License.
+
 
 
