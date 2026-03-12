@@ -1,4 +1,13 @@
-# AFC Sr–Sr Modeling for Granitic Magmatic Suites
+# Borborema Magmatism Toolkit
+
+Python toolkit for geochemical and isotopic analysis of post-collisional magmatism in the **Rio Grande do Norte Domain (DRN), Borborema Province, NE Brazil**.
+
+This repository contains scripts used to investigate the geochemical and isotopic evolution of Ediacaran–Cambrian granitoids.
+
+## Modules
+
+### Sr isotopes
+Assimilation–Fractional Crystallization (AFC) modeling of Sr isotopes.
 
 Python script for modeling **Sr isotope evolution using an Assimilation–Fractional Crystallization (AFC) model**.
 
@@ -125,3 +134,4 @@ GitHub repository.
 # License
 
 This project is distributed under the MIT License.
+
