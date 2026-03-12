@@ -1,3 +1,21 @@
+
+### Future modules
+
+The toolkit will also include:
+
+- Sm–Nd isotope analysis
+- U–Pb geochronology visualization
+- Whole-rock PCA analysis
+- Geochemical diagrams
+
+## Example figure
+
+![AFC Sr-Sr Diagram](figures/AFC_SrSr.png)
+
+## Installation
+
+Install dependencies:
+
 """
 AFC Sr–Sr model plotter
 Author: Caio Tavares
@@ -269,3 +287,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
