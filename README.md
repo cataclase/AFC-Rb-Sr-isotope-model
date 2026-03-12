@@ -126,7 +126,7 @@ The script produces a Sr–Sr isotope diagram showing:
 If you use this script in scientific work, please cite:
 
 Tavares, C. (2026)
-*AFC Sr–Sr modeling script for granitoid magmatic suites.*
+*borborema-magmatism-toolkit*
 GitHub repository.
 
 ---
@@ -134,4 +134,5 @@ GitHub repository.
 # License
 
 This project is distributed under the MIT License.
+
 
