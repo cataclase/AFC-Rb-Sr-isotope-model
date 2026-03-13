@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 Principal Component Analysis allows identification of geochemical trends and clustering of magmatic suites.
 
-![PCA](figures/pca_plot.png)
+![PCA](figures/PCA.png)
 
 Example:
 
@@ -98,7 +98,7 @@ from borborema.wr_pca import run_pca
 
 Assimilation–Fractional Crystallization modelling following DePaolo (1981).
 
-![AFC](figures/afc_model.png)
+![AFC](figures/AFC_SrSr.png)
 
 Example:
 
@@ -112,7 +112,7 @@ from borborema.afc_model import monte_carlo_afc
 
 Visualization of εNd(t) versus age with comparison to the depleted mantle evolution curve.
 
-![Sm-Nd](figures/sm_nd_evolution.png)
+![Sm-Nd](figures/SrNd.png)
 
 Example:
 
@@ -126,7 +126,7 @@ from borborema.sr_nd_models import plot_eNd_age
 
 Visualization of zircon crystallization ages and associated analytical uncertainties.
 
-![U-Pb](figures/upb_ages.png)
+![U-Pb](figures/UPB_geochronology.png)
 
 Example:
 
@@ -181,5 +181,6 @@ Mine Geologist | Igneous Petrology | Isotope Geochemistry
 # License
 
 MIT License
+
 
 
