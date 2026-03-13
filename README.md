@@ -68,7 +68,7 @@ borborema-magmatism-toolkit
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/borborema-magmatism-toolkit
+git clone https://github.com/cataclase/borborema-magmatism-toolkit
 cd borborema-magmatism-toolkit
 ```
 
@@ -181,4 +181,5 @@ Mine Geologist | Igneous Petrology | Isotope Geochemistry
 # License
 
 MIT License
+
 
