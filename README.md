@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-Python toolkit for geochemical, isotopic, and geochronological analysis of magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Borborema Province (NE Brazil).
+Python toolkit for geochemical, isotopic, and geochronological analysis of magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Rio Grande do Norte Domain of Borborema Province (NE Brazil).
 
 This toolkit was developed to support integrated studies of:
 
