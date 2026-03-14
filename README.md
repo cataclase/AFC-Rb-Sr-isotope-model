@@ -156,8 +156,6 @@ print("Best D:", results["best_D"])
 from borborema.afc_model import monte_carlo_afc
 ```
 
----
-
 # Sm–Nd isotopic evolution
 
 Visualization of εNd(t) versus age with comparison to the depleted mantle evolution curve.
