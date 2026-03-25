@@ -89,25 +89,18 @@ python run_all_figures.py
 
 ```
 borborema-magmatism-toolkit/
-
 ├── README.md
 ├── requirements.txt
+├── pyproject.toml
 ├── run_all_figures.py
 │
-├── sample_data/
-│   ├── wr_pca_example.csv
-│   ├── afc_model_example.csv
-│   ├── sr_nd_models_example.csv
-│   └── upb_geochronology_example.csv
+├── examples/
+│   └── Example_DRN.xlsx
 │
 ├── figures/
 │   ├── PCA.png
 │   ├── AFC_SrSr.png
-│   ├── SrNd.png
-│   ├── UPB_geochronology.png
-│   ├── DRN.png
-│   ├── BORBOREMA.png
-│   └── MODEL.png
+│   └── SrNd.png
 │
 └── borborema/
     ├── __init__.py
@@ -117,7 +110,6 @@ borborema-magmatism-toolkit/
     ├── upb_geochronology.py
     ├── datasets.py
     └── data_cleaning.py
-```
 
 ---
 
