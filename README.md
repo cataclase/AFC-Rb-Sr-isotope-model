@@ -26,7 +26,7 @@ Assimilation–fractional crystallization (AFC) models after DePaolo (1981) were
 
 ### Borborema Province
 
-At the regional scale, the Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. Within this framework, the Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism, making it an ideal natural laboratory to investigate the relationships among mantle source enrichment, crustal assimilation, magma differentiation, and lithospheric evolution.
+Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. Within this framework, the Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism, making it an ideal natural laboratory to investigate the relationships among mantle source enrichment, crustal assimilation, magma differentiation, and lithospheric evolution.
 
 ![Regional geological framework of the Borborema Province](figures/BORBOREMA.png)
 
