@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-Python toolkit for geochemical, isotopic, and geochronological analysis of magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Rio Grande do Norte Domain of Borborema Province (NE Brazil).
+Python toolkit for geochemical, isotopic, and geochronological analysis of post-collisional magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Rio Grande do Norte Domain of Borborema Province (NE Brazil).
 
 This toolkit was developed to support integrated studies of:
 
@@ -11,9 +11,14 @@ This toolkit was developed to support integrated studies of:
 - radiogenic isotopes
 - zircon U–Pb geochronology
 
-in post-collisional granitoid systems.
-
 ---
+
+# Conceptual basis
+
+This workflow was developed to investigate the geochemical characteristics of post-collisional plutons by integrating elemental and isotopic datasets. The codes listed above apply classical igneous petrology models to qualify and quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The six magmatic suites presented here represent the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain, and record the final stages of West Gondwana assembly during the Ediacaran.
+
+![Conceptual basis](figures/DRN.png)
+
 
 # Overview
 
