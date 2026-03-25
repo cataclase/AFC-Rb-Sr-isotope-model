@@ -211,9 +211,15 @@ print("Best D:", results["best_D"])
 
 # Sm–Nd isotopic evolution
 
-Visualization of εNd(t) versus age with comparison to the depleted mantle evolution curve.
+Sm–Nd isotopic modelling is used to evaluate mantle source characteristics and crustal contributions through time. εNd(t) values are calculated using CHUR (Jacobsen and Wasserburg, 1980) as a reference and compared with depleted mantle (DM) evolution curves following DePaolo (1984).
+
+Variations in εNd(t) reflect the balance between mantle-derived inputs and crustal assimilation, with more negative values indicating stronger involvement of older continental crust. εNd(t) versus age diagrams allow assessment of source inheritance, whereas εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) plots provide a combined isotopic framework to discriminate between depleted mantle, enriched mantle (EM1–EM2), and crustal components.
+
+The consistently negative εNd(t) values indicate that mantle-derived magmas interacted with an enriched subcontinental lithospheric mantle and/or ancient crustal components, supporting a model of lithospheric inheritance and open-system magmatic evolution.
 
 ![Sm-Nd](figures/SrNd.png)
+
+*Figure X. Sm–Nd isotopic systematics of magmatic suites from the Rio Grande do Norte Domain. (A) εNd(t) versus age diagram showing evolution relative to CHUR and depleted mantle (DM). Negative εNd(t) values indicate derivation from enriched lithospheric mantle and/or interaction with ancient continental crust. (B) εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) diagram highlighting the distribution of samples relative to depleted mantle (DM) and enriched mantle reservoirs (EM1–EM2). The isotopic signatures define a continuum between mantle-derived magmas and crustally contaminated compositions, consistent with open-system evolution dominated by assimilation–fractional crystallization (AFC).*
 
 Example:
 
