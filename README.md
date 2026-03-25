@@ -19,7 +19,7 @@ The codes listed above apply classical igneous petrology models to qualify and q
 
 Assimilation–fractional crystallization (AFC) models after DePaolo (1981) were applied to quantify the relative contributions of mantle melting and crustal assimilation in the magmatic suites of the Rio Grande do Norte Domain, using natural compositions as proxies for primitive magma and assimilated crustal material.
 
-εNd(t) versus age models are based on isotopic evolution curves for CHUR and the depleted and enriched mantle reservoirs following Jacobsen and Wasserburg (1980). These models are used to constrain the isotopic signatures of the subcontinental lithospheric mantle beneath the Rio Grande do Norte Domain during the Neoproterozoic.
+εNd(t) versus age models are constructed using isotopic evolution curves for CHUR (Jacobsen and Wasserburg, 1980) and the depleted mantle (DM) following DePaolo (1984). Theoretical compositional fields for enriched mantle reservoirs (EM1 and EM2) are incorporated based on the global mantle component framework of Zindler and Hart (1986), allowing discrimination between depleted, enriched, and crustally contaminated sources.
 
 At the regional scale, the Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. Within this framework, the Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism, making it an ideal natural laboratory to investigate the relationships among mantle source enrichment, crustal assimilation, magma differentiation, and lithospheric evolution.
 
