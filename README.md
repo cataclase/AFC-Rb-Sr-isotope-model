@@ -15,7 +15,7 @@ This toolkit was developed to support integrated studies of:
 
 # Conceptual basis
 
-This workflow was developed to investigate the geochemical characteristics of post-collisional plutons by integrating elemental and isotopic datasets. The codes listed above apply classical igneous petrology models to qualify and quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The six magmatic suites presented here represent the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain, and record the final stages of West Gondwana assembly during the Ediacaran.
+The codes listed above apply classical igneous petrology models to qualify and quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The classification into six magmatic suites adopted here is based on Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain. These rocks represent the final stages of West Gondwana assembly during the Ediacaran.
 
 At the regional scale, the Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. Within this framework, the Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism, making it an ideal natural laboratory to investigate the relationships among mantle source enrichment, crustal assimilation, magma differentiation, and lithospheric evolution.
 
