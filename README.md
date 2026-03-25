@@ -207,8 +207,6 @@ print("Best r:", results["best_r"])
 print("Best D:", results["best_D"])
 ```
 
----
-
 # Sm–Nd isotopic evolution
 
 ## Sm–Nd isotopic modelling
@@ -262,7 +260,21 @@ df = pd.read_csv("sample_data/upb_geochronology_exemple.csv", encoding="utf-8-si
 
 fig = plot_upb_ages(df)
 ```
+## Integrated petrogenetic and geodynamic model
 
+The combined geochemical, isotopic, geochronological, and multivariate datasets define a coherent model for the evolution of post-collisional magmatism in the Rio Grande do Norte Domain.
+
+Sm–Nd isotopic signatures indicate that magmatism was sourced from an enriched subcontinental lithospheric mantle, previously metasomatized during Paleoproterozoic–Archean events. Consistently negative εNd(t) values, coupled with EM2-like signatures, point to a lithospheric mantle reservoir modified by ancient crustal components.
+
+Zircon U–Pb ages constrain magmatism between ~600 and 520 Ma, defining a prolonged magmatic interval (~80 Ma) rather than discrete pulses. This temporal framework indicates sustained thermal input and progressive lithospheric reworking during the late stages of West Gondwana assembly.
+
+Geochemical trends revealed by PCA define systematic variations from mantle-derived to increasingly evolved compositions, while AFC modelling quantifies the role of crustal assimilation during magma evolution. Together, these datasets indicate that mantle-derived magmas underwent progressive assimilation–fractional crystallization within the continental crust, producing the observed diversity of magmatic suites.
+
+These results support a three-stage geodynamic model: (1) long-term fertilization of the subcontinental lithospheric mantle; (2) lithospheric rejuvenation driven by delamination and asthenospheric upwelling, triggering partial melting; and (3) prolonged magmatism leading to thermal stabilization and reorganization of the lithosphere.
+
+![U-Pb](figures/MODEL.png)
+
+Overall, the Rio Grande do Norte Domain records a protracted history of mantle–crust interaction, in which enriched lithospheric mantle sources and open-system magma evolution played a key role in the generation of post-collisional granitoid magmatism.
 ---
 
 # Reproducing all figures
