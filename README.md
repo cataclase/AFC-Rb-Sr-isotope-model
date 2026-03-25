@@ -134,7 +134,17 @@ Run all example workflows and reproduce the figures:
 
 # Whole-rock geochemistry – PCA
 
-Principal Component Analysis allows identification of geochemical trends and clustering of magmatic suites.
+## Principal Component Analysis (PCA)
+
+Principal Component Analysis (PCA) is used to identify geochemical trends, reduce dataset dimensionality, and evaluate the relationships among major and trace elements across different magmatic suites. By transforming the original compositional variables into orthogonal principal components, PCA highlights the dominant geochemical processes controlling magma evolution.
+
+In this workflow, PCA is applied to whole-rock geochemical datasets to distinguish between magmatic suites and to assess the relative influence of petrogenetic processes such as partial melting, fractional crystallization, and crustal assimilation.
+
+The first principal component (PC1) typically captures the largest proportion of variance in the dataset and is commonly associated with differentiation trends, including incompatible element enrichment during fractional crystallization. The second principal component (PC2) reflects secondary controls, such as variations in source composition, degree of partial melting, or crustal contamination.
+
+Loadings of individual elements on each principal component provide a quantitative measure of their contribution to the observed variance. Elements with high positive or negative loadings define the geochemical gradients represented by each axis, allowing direct interpretation of magmatic processes. For example, enrichment in large-ion lithophile elements (LILE) or light rare earth elements (LREE) may indicate crustal assimilation or enriched mantle sources, whereas high-field strength elements (HFSE) and compatible elements may reflect mantle melting conditions or mineral fractionation.
+
+The spatial distribution of samples in PCA space reveals clustering patterns corresponding to distinct magmatic suites, while overlap between groups may indicate shared sources or evolutionary pathways. In the context of the Rio Grande do Norte Domain, PCA provides an effective tool to discriminate between shoshonitic, alkaline, and calc-alkaline suites, and to evaluate their genetic relationships within a post-collisional geodynamic framework.
 
 ![PCA](figures/PCA.png)
 
