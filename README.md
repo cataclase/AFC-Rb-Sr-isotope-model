@@ -211,11 +211,15 @@ print("Best D:", results["best_D"])
 
 # Sm–Nd isotopic evolution
 
-Sm–Nd isotopic modelling is used to evaluate mantle source characteristics and crustal contributions through time. εNd(t) values are calculated using CHUR (Jacobsen and Wasserburg, 1980) as a reference and compared with depleted mantle (DM) evolution curves following DePaolo (1984).
+## Sm–Nd isotopic modelling
 
-Variations in εNd(t) reflect the balance between mantle-derived inputs and crustal assimilation, with more negative values indicating stronger involvement of older continental crust. εNd(t) versus age diagrams allow assessment of source inheritance, whereas εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) plots provide a combined isotopic framework to discriminate between depleted mantle, enriched mantle (EM1–EM2), and crustal components.
+Sm–Nd isotopic modelling is used to evaluate mantle source characteristics and crustal contributions through time. εNd(t) values are calculated using CHUR (Jacobsen and Wasserburg, 1980) as a reference and compared with depleted mantle (DM) evolution curves following DePaolo (1984). Compositional fields for enriched mantle reservoirs (EM1 and EM2) are based on the global mantle component framework of Zindler and Hart (1986).
 
-The consistently negative εNd(t) values indicate that mantle-derived magmas interacted with an enriched subcontinental lithospheric mantle and/or ancient crustal components, supporting a model of lithospheric inheritance and open-system magmatic evolution.
+Positive εNd(t) values indicate derivation from depleted mantle sources with relatively short crustal residence times, whereas negative εNd(t) values reflect contributions from enriched sources, such as subcontinental lithospheric mantle or older continental crust. Increasingly negative εNd(t) values are therefore interpreted as evidence of crustal involvement and/or mantle source enrichment.
+
+Depleted mantle (DM) signatures are typically associated with MORB-like sources, whereas enriched mantle signatures (EM1 and EM2) reflect mantle domains modified by recycled crustal materials. EM1 is commonly linked to older lithospheric mantle, while EM2 is frequently associated with sediment-influenced sources and is typical of continental and intraplate magmatism.
+
+In the Rio Grande do Norte Domain, the predominantly negative εNd(t) values indicate that magmas were derived from an enriched subcontinental lithospheric mantle and/or interacted with ancient continental crust. εNd(t) versus age diagrams allow evaluation of source inheritance, while εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) plots provide a combined isotopic framework to discriminate between mantle and crustal contributions. The observed isotopic trends define a continuum between mantle-derived magmas and crustally contaminated compositions, consistent with open-system evolution dominated by assimilation–fractional crystallization (AFC).
 
 ![Sm-Nd](figures/SrNd.png)
 
