@@ -170,9 +170,11 @@ print("Groups:", results["groups"])
 
 # Rb–Sr isotope modelling – AFC
 
-Assimilation–Fractional Crystallization modelling following DePaolo (1981).
+Assimilation–fractional crystallization (AFC) modelling is used to quantify the interaction between mantle-derived magmas and the continental crust. The models follow the formulation of DePaolo (1981), allowing evaluation of the relative contributions of fractional crystallization and crustal assimilation during magma evolution. Variations in trace elements and isotopic compositions (e.g., Rb–Sr) are used to constrain the degree of assimilation and to track the evolution from primitive to more evolved magmas within the different magmatic suites. The observed trends are consistent with progressive contamination of mantle-derived magmas by ancient continental crust, as indicated by increasingly radiogenic Sr signatures.
 
 ![AFC](figures/AFC_SrSr.png)
+
+*Figure X. AFC modelling (DePaolo, 1981) for magmatic suites of the Rio Grande do Norte Domain. Curves represent theoretical evolution paths controlled by varying assimilation-to-crystallization ratios (r), illustrating the progressive interaction between mantle-derived magmas and crustal material. The distribution of samples along the AFC trajectories indicates variable degrees of crustal assimilation, with more evolved compositions plotting toward higher r values. These trends support a model of open-system magma evolution dominated by assimilation–fractional crystallization processes.*
 
 Example:
 
