@@ -242,9 +242,15 @@ print(results)
 
 # U–Pb geochronology
 
-Visualization of zircon crystallization ages and associated analytical uncertainties.
+Zircon U–Pb geochronology is used to constrain the timing and duration of magmatic activity in the Rio Grande do Norte Domain. Crystallization ages represent the timing of magma emplacement and provide a temporal framework for evaluating magmatic evolution across different suites.
+
+The compiled dataset reveals a concentration of ages between ~600 and 520 Ma, defining a prolonged magmatic interval during the Ediacaran–Cambrian transition. This temporal distribution records the progressive evolution of post-collisional magmatism following the assembly of West Gondwana.
+
+The prolonged duration of magmatism (~80 Ma) supports a model of sustained lithospheric thermal reworking, rather than short-lived magmatic pulses, consistent with progressive mantle–crust interaction and AFC-driven evolution.
 
 ![U-Pb](figures/UPB_geochronology.png)
+
+*Figure X. Compilation of zircon U–Pb crystallization ages for magmatic suites of the Rio Grande do Norte Domain. Data are grouped by pluton and magmatic suite, with error bars representing analytical uncertainties. The age distribution defines a prolonged magmatic interval between ~600 and 520 Ma, indicating sustained magmatic activity during the late stages of West Gondwana assembly. Overlap between suites suggests partially coeval magmatism and progressive evolution within a post-collisional setting.*
 
 Example:
 
