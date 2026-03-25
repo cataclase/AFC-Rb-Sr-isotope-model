@@ -15,7 +15,11 @@ This toolkit was developed to support integrated studies of:
 
 # Conceptual basis
 
-The codes listed above apply classical igneous petrology models to qualify and quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The classification into six magmatic suites adopted here is based on Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain. These rocks represent the final stages of West Gondwana assembly during the Ediacaran.
+The codes listed above apply classical igneous petrology models to qualify and quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The classification into six magmatic suites adopted here is based on Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain. These rocks record the final stages of West Gondwana assembly during the Ediacaran.
+
+Assimilation–fractional crystallization (AFC) models after DePaolo (1981) were applied to quantify the relative contributions of mantle melting and crustal assimilation in the magmatic suites of the Rio Grande do Norte Domain, using natural compositions as proxies for primitive magma and assimilated crustal material.
+
+εNd(t) versus age models are based on isotopic evolution curves for CHUR and the depleted and enriched mantle reservoirs following Jacobsen and Wasserburg (1980). These models are used to constrain the isotopic signatures of the subcontinental lithospheric mantle beneath the Rio Grande do Norte Domain during the Neoproterozoic.
 
 At the regional scale, the Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. Within this framework, the Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism, making it an ideal natural laboratory to investigate the relationships among mantle source enrichment, crustal assimilation, magma differentiation, and lithospheric evolution.
 
