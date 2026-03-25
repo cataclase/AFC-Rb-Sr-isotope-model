@@ -3,62 +3,64 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-Python toolkit for geochemical, isotopic, and geochronological analysis of post-collisional magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Rio Grande do Norte Domain of Borborema Province (NE Brazil).
+Python toolkit for geochemical, isotopic, and geochronological analysis of post-collisional magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Rio Grande do Norte Domain, Borborema Province (NE Brazil).
 
-This toolkit was developed to support integrated studies of:
+This toolkit supports integrated studies of:
 
-- whole-rock geochemistry
-- radiogenic isotopes
-- zircon U–Pb geochronology
+- whole-rock geochemistry  
+- radiogenic isotopes  
+- zircon U–Pb geochronology  
+
+---
+
+## Reproducibility
+
+All figures and results presented in this repository can be fully reproduced using the provided datasets and scripts.
 
 ---
 
 # Conceptual basis
 
-The codes listed above apply classical igneous petrology models to qualify and quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The classification into six magmatic suites adopted here is based on Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain. These rocks record the final stages of West Gondwana assembly during the Ediacaran.
+The codes apply classical igneous petrology models to quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The classification into six magmatic suites adopted here is based on Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain. These rocks record the final stages of West Gondwana assembly during the Ediacaran.
 
-Assimilation–fractional crystallization (AFC) models after DePaolo (1981) were applied to quantify the relative contributions of mantle melting and crustal assimilation in the magmatic suites of the Rio Grande do Norte Domain, using natural compositions as proxies for primitive magma and assimilated crustal material.
+Assimilation–fractional crystallization (AFC) models after DePaolo (1981) are used to quantify the relative contributions of mantle melting and crustal assimilation, using natural compositions as proxies for primitive magma and assimilated crustal material.
 
-εNd(t) versus age models are constructed using isotopic evolution curves for CHUR (Jacobsen and Wasserburg, 1980) and the depleted mantle (DM) following DePaolo (1984). Theoretical compositional fields for enriched mantle reservoirs (EM1 and EM2) are incorporated based on the global mantle component framework of Zindler and Hart (1986), allowing discrimination between depleted, enriched, and crustally contaminated sources.
+εNd(t) versus age models are constructed using isotopic evolution curves for CHUR (Jacobsen and Wasserburg, 1980) and the depleted mantle (DM) following DePaolo (1984). Compositional fields for enriched mantle reservoirs (EM1 and EM2) are based on the global mantle component framework of Zindler and Hart (1986), allowing discrimination between depleted, enriched, and crustally contaminated sources.
 
+---
 
-## Regional geological context
+# Geological context
 
-### Borborema Province
+## Borborema Province
 
-Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. Within this framework, the Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism, making it an ideal natural laboratory to investigate the relationships among mantle source enrichment, crustal assimilation, magma differentiation, and lithospheric evolution.
+The Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. The Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism.
 
-![Regional geological framework of the Borborema Province](figures/BORBOREMA.png)
+![Figure 1](figures/BORBOREMA.png)
 
-*Regional geological framework of the Borborema Province in northeastern Brazil, showing its major tectonic domains, lineaments, basement inliers, and the distribution of Brasiliano-Pan Africano plutonism. The dashed rectangle indicates the Rio Grande do Norte Domain shown in detail below.*
+*Figure 1. Regional geological framework of the Borborema Province, showing tectonic domains and distribution of Brasiliano–Pan-African plutonism. The dashed rectangle highlights the Rio Grande do Norte Domain.*
 
-### Rio Grande do Norte Domain
+## Rio Grande do Norte Domain
 
-![Post-collisional magmatic suites of the Rio Grande do Norte Domain](figures/DRN.png)
+![Figure 2](figures/DRN.png)
 
-*Geological map of the Rio Grande do Norte Domain highlighting the spatial distribution of the six post-collisional magmatic suites investigated in this workflow.*
+*Figure 2. Geological map of the Rio Grande do Norte Domain showing the distribution of the six post-collisional magmatic suites.*
 
+---
 
 # Overview
 
-The toolkit integrates analytical workflows commonly used in igneous petrology and isotope geochemistry.
+The toolkit integrates analytical workflows commonly used in igneous petrology and isotope geochemistry:
 
-Applications include studies of the magmatic evolution of the **Rio Grande do Norte Domain** in the Borborema Province.
-
-Implemented workflows include:
-
-- whole-rock PCA
-- AFC modelling
-- Sm–Nd isotopic panels
-- zircon U–Pb age distributions
+- whole-rock PCA  
+- AFC modelling  
+- Sm–Nd isotopic modelling  
+- zircon U–Pb geochronology  
 
 ---
 
 # Requirements
 
 Python 3.9+
-
-Required packages:
 
 ```text
 numpy
@@ -74,7 +76,15 @@ Install all dependencies with:
 pip install -r requirements.txt
 ```
 
----
+# Installation
+
+git clone https://github.com/cataclase/borborema-magmatism-toolkit
+cd borborema-magmatism-toolkit
+pip install -r requirements.txt
+
+# Quick start
+
+python run_all_figures.py
 
 # Repository structure
 
@@ -138,9 +148,9 @@ Run all example workflows and reproduce the figures:
 
 Principal Component Analysis (PCA) is used to identify geochemical trends and discriminate magmatic suites by reducing dataset dimensionality. The selected elements include major elements (e.g., CaO, Na2O, K2O), large-ion lithophile elements (e.g., Rb, Ba, Sr), and high-field strength elements (e.g., Zr, Nb, Ti), allowing the evaluation of magma differentiation, mantle source characteristics, and crustal assimilation. Together, these variables capture the combined effects of partial melting, fractional crystallization, and assimilation–fractional crystallization (AFC).
 
-![PCA](figures/PCA.png)
+![Figure 3](figures/PCA.png)
 
-*Figure X. Principal Component Analysis (PCA) of whole-rock geochemical data from the Rio Grande do Norte Domain. PC1 (37.3%) defines a differentiation axis from compatible-element-rich compositions (e.g., CaO) to incompatible-element-enriched magmas (e.g., Rb, Th, Nb), reflecting fractional crystallization and AFC processes. PC2 (19.0%) records secondary variations related to source heterogeneity and crustal interaction. Distinct clustering of magmatic suites highlights their petrogenetic relationships within a post-collisional setting.*
+*Figure 3. Principal Component Analysis (PCA) of whole-rock geochemical data from the Rio Grande do Norte Domain. PC1 (37.3%) defines a differentiation axis from compatible-element-rich compositions (e.g., CaO) to incompatible-element-enriched magmas (e.g., Rb, Th, Nb), reflecting fractional crystallization and AFC processes. PC2 (19.0%) records secondary variations related to source heterogeneity and crustal interaction. Distinct clustering of magmatic suites highlights their petrogenetic relationships within a post-collisional setting.*
 
 Example:
 
@@ -180,9 +190,9 @@ The AFC trajectories indicate that magma evolution was controlled by progressive
 
 *Initial compositions used in the AFC modelling are based on natural samples, including the most primitive shoshonitic composition as a proxy for the parental magma and a representative basement sample from the Caicó Complex as the assimilant. This approach ensures that model parameters are grounded in geologically realistic end-members. For reproducibility and broader application, users are encouraged to define their own initial compositions using primitive magmas and representative crustal lithologies from their study area, allowing the workflow to be adapted to different geological settings.*
 
-![AFC](figures/AFC_SrSr.png)
+![Figure 4](figures/AFC_SrSr.png)
 
-*Figure X. AFC modelling (DePaolo, 1981) for magmatic suites of the Rio Grande do Norte Domain. Curves represent theoretical evolution paths controlled by varying assimilation-to-crystallization ratios (r), illustrating the progressive interaction between mantle-derived magmas and crustal material. The distribution of samples along the AFC trajectories indicates variable degrees of crustal assimilation, with more evolved compositions plotting toward higher r values. These trends support a model of open-system magma evolution dominated by assimilation–fractional crystallization processes.*
+*Figure 4. AFC modelling (DePaolo, 1981) for magmatic suites of the Rio Grande do Norte Domain. Curves represent theoretical evolution paths controlled by varying assimilation-to-crystallization ratios (r), illustrating the progressive interaction between mantle-derived magmas and crustal material. The distribution of samples along the AFC trajectories indicates variable degrees of crustal assimilation, with more evolved compositions plotting toward higher r values. These trends support a model of open-system magma evolution dominated by assimilation–fractional crystallization processes.*
 
 Example:
 
@@ -219,9 +229,9 @@ Depleted mantle (DM) signatures are typically associated with MORB-like sources,
 
 In the Rio Grande do Norte Domain, the predominantly negative εNd(t) values indicate that magmas were derived from an enriched subcontinental lithospheric mantle and/or interacted with ancient continental crust. εNd(t) versus age diagrams allow evaluation of source inheritance, while εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) plots provide a combined isotopic framework to discriminate between mantle and crustal contributions. The observed isotopic trends define a continuum between mantle-derived magmas and crustally contaminated compositions, consistent with open-system evolution dominated by assimilation–fractional crystallization (AFC).
 
-![Sm-Nd](figures/SrNd.png)
+![Figure 5](figures/SrNd.png)
 
-*Figure X. Sm–Nd isotopic systematics of magmatic suites from the Rio Grande do Norte Domain. (A) εNd(t) versus age diagram showing evolution relative to CHUR and depleted mantle (DM). Negative εNd(t) values indicate derivation from enriched lithospheric mantle and/or interaction with ancient continental crust. (B) εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) diagram highlighting the distribution of samples relative to depleted mantle (DM) and enriched mantle reservoirs (EM1–EM2). The isotopic signatures define a continuum between mantle-derived magmas and crustally contaminated compositions, consistent with open-system evolution dominated by assimilation–fractional crystallization (AFC).*
+*Figure 5. Sm–Nd isotopic systematics of magmatic suites from the Rio Grande do Norte Domain. (A) εNd(t) versus age diagram showing evolution relative to CHUR and depleted mantle (DM). Negative εNd(t) values indicate derivation from enriched lithospheric mantle and/or interaction with ancient continental crust. (B) εNd(t) versus ⁸⁷Sr/⁸⁶Sr(t) diagram highlighting the distribution of samples relative to depleted mantle (DM) and enriched mantle reservoirs (EM1–EM2). The isotopic signatures define a continuum between mantle-derived magmas and crustally contaminated compositions, consistent with open-system evolution dominated by assimilation–fractional crystallization (AFC).*
 
 Example:
 
@@ -246,9 +256,9 @@ The compiled dataset reveals a concentration of ages between ~600 and 520 Ma, de
 
 The prolonged duration of magmatism (~80 Ma) supports a model of sustained lithospheric thermal reworking, rather than short-lived magmatic pulses, consistent with progressive mantle–crust interaction and AFC-driven evolution.
 
-![U-Pb](figures/UPB_geochronology.png)
+![Figure 6](figures/UPB_geochronology.png)
 
-*Figure X. Compilation of zircon U–Pb crystallization ages for magmatic suites of the Rio Grande do Norte Domain. Data are grouped by pluton and magmatic suite, with error bars representing analytical uncertainties. The age distribution defines a prolonged magmatic interval between ~600 and 520 Ma, indicating sustained magmatic activity during the late stages of West Gondwana assembly. Overlap between suites suggests partially coeval magmatism and progressive evolution within a post-collisional setting.*
+*Figure 6. Compilation of zircon U–Pb crystallization ages for magmatic suites of the Rio Grande do Norte Domain. Data are grouped by pluton and magmatic suite, with error bars representing analytical uncertainties. The age distribution defines a prolonged magmatic interval between ~600 and 520 Ma, indicating sustained magmatic activity during the late stages of West Gondwana assembly. Overlap between suites suggests partially coeval magmatism and progressive evolution within a post-collisional setting.*
 
 Example:
 
@@ -272,9 +282,9 @@ Geochemical trends revealed by PCA define systematic variations from mantle-deri
 
 These results support a three-stage geodynamic model: (1) long-term fertilization of the subcontinental lithospheric mantle; (2) lithospheric rejuvenation driven by delamination and asthenospheric upwelling, triggering partial melting; and (3) prolonged magmatism leading to thermal stabilization and reorganization of the lithosphere.
 
-![Petrogenetic model](figures/MODEL.png)
+![Figure 7](figures/MODEL.png)
 
-*Figure X. Conceptual model for the evolution of post-collisional magmatism in the Rio Grande do Norte Domain. (1) Paleoproterozoic–Archean fertilization of the subcontinental lithospheric mantle (SCLM) through mantle metasomatism, generating enriched isotopic signatures (negative εNd(t)). (2) Ediacaran lithospheric rejuvenation (~600–575 Ma) driven by delamination and slab break-off, promoting asthenospheric upwelling and partial melting of the enriched SCLM. Mantle-derived magmas ascend and evolve through assimilation–fractional crystallization (AFC) within the continental crust. (3) Prolonged magmatism (~560–520 Ma) leads to thermal stabilization and reorganization of the lithosphere, forming the present-day crustal architecture. This model integrates geochemical, isotopic, and geochronological constraints, highlighting the role of enriched lithospheric mantle sources and open-system magma evolution during the final stages of West Gondwana assembly.*
+*Figure 7. Conceptual model for the evolution of post-collisional magmatism in the Rio Grande do Norte Domain. (1) Paleoproterozoic–Archean fertilization of the subcontinental lithospheric mantle (SCLM) through mantle metasomatism, generating enriched isotopic signatures (negative εNd(t)). (2) Ediacaran lithospheric rejuvenation (~600–575 Ma) driven by delamination and slab break-off, promoting asthenospheric upwelling and partial melting of the enriched SCLM. Mantle-derived magmas ascend and evolve through assimilation–fractional crystallization (AFC) within the continental crust. (3) Prolonged magmatism (~560–520 Ma) leads to thermal stabilization and reorganization of the lithosphere, forming the present-day crustal architecture. This model integrates geochemical, isotopic, and geochronological constraints, highlighting the role of enriched lithospheric mantle sources and open-system magma evolution during the final stages of West Gondwana assembly.*
 
 Overall, the Rio Grande do Norte Domain records a protracted history of mantle–crust interaction, in which enriched lithospheric mantle sources and open-system magma evolution played a key role in the generation of post-collisional granitoid magmatism.
 ---
