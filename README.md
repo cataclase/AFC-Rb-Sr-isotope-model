@@ -25,7 +25,7 @@ The codes apply classical igneous petrology models to quantify the processes of 
 
 Assimilation–fractional crystallization (AFC) models after DePaolo (1981) are used to quantify the relative contributions of mantle melting and crustal assimilation, using natural compositions as proxies for primitive magma and assimilated crustal material.
 
-εNd(t) versus age models are constructed using isotopic evolution curves for CHUR (Jacobsen and Wasserburg, 1980) and the depleted mantle (DM) following DePaolo (1984). Compositional fields for enriched mantle reservoirs (EM1 and EM2) are based on the global mantle component framework of Zindler and Hart (1986), allowing discrimination between depleted, enriched, and crustally contaminated sources.
+εNd(t) versus age models are constructed using isotopic evolution curves for CHUR (Jacobsen and Wasserburg, 1980) and the depleted mantle (DM) following DePaolo (1984). Compositional fields for enriched mantle reservoirs (EM1 and EM2) are based on the global mantle component framework of Zindler and Hart (1986).
 
 ---
 
@@ -37,19 +37,19 @@ The Borborema Province comprises a complex Neoproterozoic orogenic system struct
 
 ![Figure 1](figures/BORBOREMA.png)
 
-*Figure 1. Regional geological framework of the Borborema Province, showing tectonic domains and distribution of Brasiliano–Pan-African plutonism. The dashed rectangle highlights the Rio Grande do Norte Domain.*
+*Figure 1. Regional geological framework of the Borborema Province. The dashed rectangle highlights the Rio Grande do Norte Domain.*
 
 ## Rio Grande do Norte Domain
 
 ![Figure 2](figures/DRN.png)
 
-*Figure 2. Geological map of the Rio Grande do Norte Domain showing the distribution of the six post-collisional magmatic suites.*
+*Figure 2. Geological map showing the distribution of post-collisional magmatic suites.*
 
 ---
 
 # Overview
 
-The toolkit integrates analytical workflows commonly used in igneous petrology and isotope geochemistry:
+The toolkit integrates workflows commonly used in igneous petrology and isotope geochemistry:
 
 - whole-rock PCA  
 - AFC modelling  
@@ -70,11 +70,10 @@ scikit-learn
 scipy
 ```
 
-Install all dependencies with:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
 
 # Installation
 
@@ -96,10 +95,10 @@ borborema-magmatism-toolkit/
 ├── run_all_figures.py
 │
 ├── sample_data/
-│   ├── wr_pca_exemple.csv
-│   ├── afc_model_exemple.csv
-│   ├── sr_nd_models_exemple.csv
-│   └── upb_geochronology_exemple.csv
+│   ├── wr_pca_example.csv
+│   ├── afc_model_example.csv
+│   ├── sr_nd_models_example.csv
+│   └── upb_geochronology_example.csv
 │
 ├── figures/
 │   ├── PCA.png
@@ -107,7 +106,8 @@ borborema-magmatism-toolkit/
 │   ├── SrNd.png
 │   ├── UPB_geochronology.png
 │   ├── DRN.png
-│   └── BORBOREMA.png
+│   ├── BORBOREMA.png
+│   └── MODEL.png
 │
 └── borborema/
     ├── __init__.py
@@ -294,7 +294,7 @@ Overall, the Rio Grande do Norte Domain records a protracted history of mantle�
 All figures used in the examples can be generated automatically:
 
 ```
-python -m borborema.run_all_figures
+python run_all_figures.py
 ```
 
 Figures will be saved in:
