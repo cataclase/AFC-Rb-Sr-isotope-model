@@ -178,6 +178,10 @@ The proportion of assimilated material increases as F decreases and is controlle
 
 The AFC trajectories indicate that magma evolution was controlled by progressive fractional crystallization accompanied by significant crustal assimilation, with assimilation proportions increasing as melt fraction decreases.
 
+*Initial compositions used in the AFC modelling are based on natural samples, including the most primitive shoshonitic composition as a proxy for the parental magma and a representative basement sample from the Caicó Complex as the assimilant. This approach ensures that model parameters are grounded in geologically realistic end-members.
+
+For reproducibility and broader application, users are encouraged to define their own initial compositions using primitive magmas and representative crustal lithologies from their study area, allowing the workflow to be adapted to different geological settings.
+
 ![AFC](figures/AFC_SrSr.png)
 
 *Figure X. AFC modelling (DePaolo, 1981) for magmatic suites of the Rio Grande do Norte Domain. Curves represent theoretical evolution paths controlled by varying assimilation-to-crystallization ratios (r), illustrating the progressive interaction between mantle-derived magmas and crustal material. The distribution of samples along the AFC trajectories indicates variable degrees of crustal assimilation, with more evolved compositions plotting toward higher r values. These trends support a model of open-system magma evolution dominated by assimilation–fractional crystallization processes.*
