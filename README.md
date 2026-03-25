@@ -95,7 +95,9 @@ borborema-magmatism-toolkit/
 │   ├── PCA.png
 │   ├── AFC_SrSr.png
 │   ├── SrNd.png
-│   └── UPB_geochronology.png
+│   ├── UPB_geochronology.png
+│   ├── DRN.png
+│   └── BORBOREMA.png
 │
 └── borborema/
     ├── __init__.py
