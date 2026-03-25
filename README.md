@@ -25,7 +25,7 @@ At the regional scale, the Borborema Province comprises a complex Neoproterozoic
 
 ![Regional geological framework of the Borborema Province](figures/BORBOREMA.png)
 
-*Regional geological framework of the Borborema Province in northeastern Brazil, showing its major tectonic domains, lineaments, basement inliers, and the distribution of post-collisional plutonism. The dashed rectangle indicates the Rio Grande do Norte Domain shown in detail below.*
+*Regional geological framework of the Borborema Province in northeastern Brazil, showing its major tectonic domains, lineaments, basement inliers, and the distribution of Brasiliano-Pan Africano plutonism. The dashed rectangle indicates the Rio Grande do Norte Domain shown in detail below.*
 
 ### Rio Grande do Norte Domain
 
