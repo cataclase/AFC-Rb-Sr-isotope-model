@@ -287,7 +287,7 @@ These results support a three-stage geodynamic model: (1) long-term fertilizatio
 *Figure 7. Conceptual model for the evolution of post-collisional magmatism in the Rio Grande do Norte Domain. (1) Paleoproterozoic–Archean fertilization of the subcontinental lithospheric mantle (SCLM) through mantle metasomatism, generating enriched isotopic signatures (negative εNd(t)). (2) Ediacaran lithospheric rejuvenation (~600–575 Ma) driven by delamination and slab break-off, promoting asthenospheric upwelling and partial melting of the enriched SCLM. Mantle-derived magmas ascend and evolve through assimilation–fractional crystallization (AFC) within the continental crust. (3) Prolonged magmatism (~560–520 Ma) leads to thermal stabilization and reorganization of the lithosphere, forming the present-day crustal architecture. This model integrates geochemical, isotopic, and geochronological constraints, highlighting the role of enriched lithospheric mantle sources and open-system magma evolution during the final stages of West Gondwana assembly.*
 
 Overall, the Rio Grande do Norte Domain records a protracted history of mantle–crust interaction, in which enriched lithospheric mantle sources and open-system magma evolution played a key role in the generation of post-collisional granitoid magmatism.
----
+
 
 # Reproducing all figures
 
