@@ -74,6 +74,8 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
+python run_all_figures.py
 
 # Installation
 
