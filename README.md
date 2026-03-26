@@ -1,5 +1,3 @@
-<img width="1434" height="674" alt="image" src="https://github.com/user-attachments/assets/92acd6a3-05bf-4096-8021-e9db09c10703" />Vamos atualizar o readme:
-
 # Borborema Magmatism Toolkit
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
