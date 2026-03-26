@@ -21,13 +21,11 @@ All figures and results presented in this repository can be fully reproduced usi
 
 # Conceptual basis
 
-The codes apply classical igneous petrology models to quantify mantle partial melting, basement assimilation, and fractional crystallization processes.
+The codes apply classical igneous petrology models to quantify the processes of mantle partial melting, basement assimilation, and fractional crystallization. The classification into six magmatic suites adopted here is based on Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province, exposed in the crystalline basement of the Rio Grande do Norte Domain. These rocks record the final stages of West Gondwana assembly during the Ediacaran.
 
-The classification into six magmatic suites follows Nascimento et al. (2015) and represents the post-collisional magmatism of the Borborema Province during the final stages of West Gondwana assembly.
+Assimilation–fractional crystallization (AFC) models after DePaolo (1981) are used to quantify the relative contributions of mantle melting and crustal assimilation, using natural compositions as proxies for primitive magma and assimilated crustal material.
 
-Assimilation–fractional crystallization (AFC) models follow DePaolo (1981), allowing quantification of mantle and crustal contributions.
-
-Sm–Nd isotopic modelling uses CHUR (Jacobsen & Wasserburg, 1980) and depleted mantle evolution (DePaolo, 1984), while enriched mantle reservoirs (EM1, EM2) follow Zindler & Hart (1986).
+εNd(t) versus age models are constructed using isotopic evolution curves for CHUR (Jacobsen and Wasserburg, 1980) and the depleted mantle (DM) following DePaolo (1984). Compositional fields for enriched mantle reservoirs (EM1 and EM2) are based on the global mantle component framework of Zindler and Hart (1986).
 
 ---
 
@@ -35,15 +33,23 @@ Sm–Nd isotopic modelling uses CHUR (Jacobsen & Wasserburg, 1980) and depleted 
 
 ## Borborema Province
 
+The Borborema Province comprises a complex Neoproterozoic orogenic system structured by major shear zones, basement domains, supracrustal belts, and widespread granitoid plutonism. The Rio Grande do Norte Domain preserves one of the most expressive records of Ediacaran post-collisional magmatism.
+
 ![Figure 1](figures/BORBOREMA.png)
+
+*Figure 1. Regional geological framework of the Borborema Province. The dashed rectangle highlights the Rio Grande do Norte Domain.*
 
 ## Rio Grande do Norte Domain
 
 ![Figure 2](figures/DRN.png)
 
+*Figure 2. Geological map showing the distribution of post-collisional magmatic suites.*
+
 ---
 
 # Overview
+
+The toolkit integrates workflows commonly used in igneous petrology and isotope geochemistry:
 
 - whole-rock PCA  
 - AFC modelling  
@@ -56,7 +62,7 @@ Sm–Nd isotopic modelling uses CHUR (Jacobsen & Wasserburg, 1980) and depleted 
 
 Python 3.9+
 
-```
+```text
 numpy
 pandas
 matplotlib
@@ -64,24 +70,22 @@ scikit-learn
 scipy
 ```
 
----
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+pip install -e .
+python run_all_figures.py
 
 # Installation
 
-```
 git clone https://github.com/cataclase/borborema-magmatism-toolkit
 cd borborema-magmatism-toolkit
 pip install -r requirements.txt
-pip install -e .
-```
 
----
+# Quick start
 
-# Quick Start
-
-```
 python run_all_figures.py
-```
 
 ---
 
