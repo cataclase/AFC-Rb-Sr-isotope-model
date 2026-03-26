@@ -49,8 +49,6 @@ The Borborema Province comprises a complex Neoproterozoic orogenic system struct
 
 # Overview
 
-The toolkit integrates workflows commonly used in igneous petrology and isotope geochemistry:
-
 - whole-rock PCA  
 - AFC modelling  
 - Sm–Nd isotopic modelling  
@@ -62,7 +60,7 @@ The toolkit integrates workflows commonly used in igneous petrology and isotope 
 
 Python 3.9+
 
-```text
+```
 numpy
 pandas
 matplotlib
@@ -70,22 +68,24 @@ scikit-learn
 scipy
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-pip install -e .
-python run_all_figures.py
+---
 
 # Installation
 
+```
 git clone https://github.com/cataclase/borborema-magmatism-toolkit
 cd borborema-magmatism-toolkit
 pip install -r requirements.txt
+pip install -e .
+```
 
-# Quick start
+---
 
+# Quick Start
+
+```
 python run_all_figures.py
+```
 
 ---
 
