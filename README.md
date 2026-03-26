@@ -1,4 +1,4 @@
-Vamos atualizar o readme:
+<img width="1434" height="674" alt="image" src="https://github.com/user-attachments/assets/92acd6a3-05bf-4096-8021-e9db09c10703" />Vamos atualizar o readme:
 
 # Borborema Magmatism Toolkit
 
@@ -98,25 +98,23 @@ borborema-magmatism-toolkit/
 ├── requirements.txt
 ├── pyproject.toml
 ├── run_all_figures.py
-│
 ├── examples/
-│   └── Example_DRN.xlsx
-│
+│ └── Example_DRN.xlsx
 ├── figures/
-│   ├── PCA.png
-│   ├── AFC_SrSr.png
-│   ├── SrNd.png
-│   └── UPB_geochronology.png
-│
+│ ├── PCA.png
+│ ├── AFC_SrSr.png
+│ ├── SrNd.png
+│ └── UPB_geochronology.png
 └── borborema/
-    ├── __init__.py
-    ├── wr_pca.py
-    ├── afc_model.py
-    ├── sr_nd_models.py
-    ├── upb_geochronology.py
-    ├── datasets.py
-    └── data_cleaning.py
----
+├── init.py
+├── wr_pca.py
+├── afc_model.py
+├── sr_nd_models.py
+├── upb_geochronology.py
+├── datasets.py
+└── data_cleaning.py
+```
+
 
 # Installation
 
