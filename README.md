@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19233155.svg)](https://doi.org/10.5281/zenodo.19233155)
 
 Python toolkit for geochemical, isotopic, and geochronological analysis of post-collisional magmatic systems, developed for the study of Ediacaran–Cambrian granitoid magmatism in the Rio Grande do Norte Domain, Borborema Province (NE Brazil).
 
