@@ -92,6 +92,7 @@ python run_all_figures.py
 # Repository structure
 
 borborema-magmatism-toolkit/
+
 ├── README.md
 ├── requirements.txt
 ├── pyproject.toml
