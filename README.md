@@ -88,6 +88,7 @@ pip install -r requirements.txt
 # Quick start
 
 python run_all_figures.py
+---
 
 # Repository structure
 
