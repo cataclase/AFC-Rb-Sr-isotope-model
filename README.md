@@ -116,7 +116,6 @@ borborema-magmatism-toolkit/
     ├── upb_geochronology.py
     ├── datasets.py
     └── data_cleaning.py
-
 ---
 
 # Installation
